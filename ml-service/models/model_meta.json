@@ -1,0 +1,65 @@
+{
+  "best_model_name": "Gradient Boosting Regressor",
+  "metrics": {
+    "MAE": 868541.57,
+    "MSE": 1557812236921.2,
+    "RMSE": 1248123.49,
+    "R2": 0.9902
+  },
+  "all_model_metrics": {
+    "Linear Regression": {
+      "MAE": 2194848.83,
+      "MSE": 9476741351692.16,
+      "RMSE": 3078431.64,
+      "R2": 0.9406
+    },
+    "Random Forest Regressor": {
+      "MAE": 975284.1,
+      "MSE": 1847826882296.08,
+      "RMSE": 1359347.96,
+      "R2": 0.9884
+    },
+    "Gradient Boosting Regressor": {
+      "MAE": 868541.57,
+      "MSE": 1557812236921.2,
+      "RMSE": 1248123.49,
+      "R2": 0.9902
+    }
+  },
+  "feature_names": [
+    "area",
+    "bedrooms",
+    "bathrooms",
+    "floors",
+    "yearBuilt",
+    "property_age",
+    "total_rooms",
+    "location_Bangalore",
+    "location_Chennai",
+    "location_Delhi",
+    "location_Hyderabad",
+    "location_Mumbai",
+    "location_Pune",
+    "parking_No",
+    "parking_Yes"
+  ],
+  "feature_importances": {
+    "area": 0.6572,
+    "location_Mumbai": 0.2573,
+    "location_Delhi": 0.0236,
+    "yearBuilt": 0.0155,
+    "property_age": 0.0147,
+    "location_Bangalore": 0.0115,
+    "location_Chennai": 0.0069,
+    "total_rooms": 0.0062,
+    "bedrooms": 0.0031,
+    "location_Pune": 0.0023,
+    "floors": 0.0007,
+    "location_Hyderabad": 0.0006,
+    "bathrooms": 0.0002,
+    "parking_No": 0.0001,
+    "parking_Yes": 0.0001
+  },
+  "trained_date": "2026-09-15 19:03:42",
+  "dataset_samples": 1500
+}
